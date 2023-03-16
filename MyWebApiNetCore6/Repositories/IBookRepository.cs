@@ -10,6 +10,5 @@ namespace MyWebApiNetCore6.Repositories
         public Task<int> CreateBookAsync(BookModel model);
         public Task DeleteBookAsync(int id);
         public bool BookExists(int id);
-        // master check merge
     }
 }
